@@ -2,38 +2,23 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Prospect</fullName>
+        <fullName>CRM Manager</fullName>
         <default>false</default>
-        <label>Prospect</label>
+        <label>CRM Manager</label>
     </standardValue>
     <standardValue>
-        <fullName>Customer - Direct</fullName>
+        <fullName>Iscritto</fullName>
         <default>false</default>
-        <label>Customer - Direct</label>
+        <label>Iscritto</label>
     </standardValue>
     <standardValue>
-        <fullName>Customer - Channel</fullName>
+        <fullName>Operatore CRM</fullName>
         <default>false</default>
-        <label>Customer - Channel</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Channel Partner / Reseller</fullName>
-        <default>false</default>
-        <label>Channel Partner / Reseller</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Installation Partner</fullName>
-        <default>false</default>
-        <label>Installation Partner</label>
+        <label>Operatore CRM</label>
     </standardValue>
     <standardValue>
         <fullName>Organizzatore</fullName>
         <default>true</default>
         <label>Organizzatore</label>
-    </standardValue>
-    <standardValue>
-        <fullName>Other</fullName>
-        <default>false</default>
-        <label>Other</label>
     </standardValue>
 </StandardValueSet>
