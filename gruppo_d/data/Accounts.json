@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "michele.celeste",
+            "Phone": "3336161611",
+            "BillingAddress": {
+                "city": null,
+                "country": null,
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "20135",
+                "state": null,
+                "street": "Via Celeste 1"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef2"
+            },
+            "Name": "andrea.verdi",
+            "Phone": "3336565655",
+            "BillingAddress": {
+                "city": null,
+                "country": null,
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "20135",
+                "state": null,
+                "street": "Via Verdi 1"
+            }
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef3"
+            },
+            "Name": "samuele.giallo",
+            "Phone": "3336868688",
+            "BillingAddress": {
+                "city": null,
+                "country": null,
+                "geocodeAccuracy": null,
+                "latitude": null,
+                "longitude": null,
+                "postalCode": "20135",
+                "state": null,
+                "street": "Via Giallo 1"
+            }
+        }
+    ]
+}
