@@ -16,6 +16,8 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>Luogo__c</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>CRM_Conference_UtilityBar</utilityBar>
 </CustomApplication>
