@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>Bottos_Isaac_Scott</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <classAccesses>
+        <apexClass>MappaController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -143,6 +152,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Conferenza__c.Luogo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Conferenza__c.Manifestazione__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -178,6 +192,9 @@
         <layout>Conferenza__c-Conferenza Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Luogo__c-Luogo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Manifestazione__c-Manifestazione Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -197,7 +214,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Luogo__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Manifestazione__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Mappa_Conferenze</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

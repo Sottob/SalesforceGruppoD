@@ -12,10 +12,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Luogo_Conferenza__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
                 <field>Data_Inizio__c</field>
             </layoutItems>
             <layoutItems>
@@ -25,6 +21,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Manifestazione__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Luogo__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
